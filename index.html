@@ -23,19 +23,20 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="firechat">
+  <meta name="apple-mobile-web-app-title" content="instagram_clone_flutter">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>firechat</title>
+  <title>instagram_clone_flutter</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"  type="application/javascript"></script>
 <script>
   document.addEventListener('wheel', function(e) {
     e.ctrlKey && e.preventDefault();
@@ -43,7 +44,6 @@
     passive: false,
   });
 </script>
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"  type="application/javascript"></script>
 <script>
   window.addEventListener('keydown', function(e) {
     if (event.metaKey || event.ctrlKey) {
@@ -57,7 +57,7 @@
   });
 </script>
   <script>
-    var serviceWorkerVersion = '1175421128';
+    var serviceWorkerVersion = '2186027698';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
